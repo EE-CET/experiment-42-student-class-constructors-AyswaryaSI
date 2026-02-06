@@ -4,7 +4,7 @@ class StudentClass{
       String name;
       int    rollNo;
 
-      Student(String name,int rollNo){
+      StudentClass(String name,int rollNo){
               this.name = name;
               this.rollNo = rollNo;
      }
@@ -24,8 +24,8 @@ public class Main {
         String name2 = sc.nextLine();
         int rollNo2 =  sc.nextInt();
    
-        Student s1 = new Student(name1, rollNo2);
-        Student s2 = new Student(name2, rollNo2);
+        StudentClass s1 = new StudentClass(name1, rollNo2);
+        StudentClass s2 = new StudentClass(name2, rollNo2);
 
        s1.display(1);
        s2.display(2);
